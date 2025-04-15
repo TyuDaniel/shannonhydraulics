@@ -10,7 +10,7 @@ export default function ProductCard({ image, title }: ProductCardProps) {
     <div className="group bg-zinc-900/80 rounded-xl overflow-hidden border border-zinc-800 hover:border-yellow-400 transition-all duration-300 hover:shadow-xl hover:shadow-yellow-400/5">
       <div className="relative h-64 w-full">
         <Image
-          src={image || "/placeholder.svg"}
+          src={image || "/images/shannonhydraulics.png"}
           alt={title}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
