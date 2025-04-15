@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="relative h-12 w-48">
-              <Image src="/images/logo.png" alt="Shannon Hydraulics Logo" fill className="object-contain" />
+              <Image src="/images/logos.png" alt="Shannon Hydraulics Logo" fill className="object-contain" />
             </div>
           </Link>
 
