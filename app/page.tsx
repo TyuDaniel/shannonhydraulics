@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/90 z-10"></div>
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/images/shannonhydraulics.png?height=1080&width=1920"
             alt="Hydraulic machinery"
             fill
             className="object-cover opacity-50"
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 mb-12 md:mb-0">
               <div className="relative h-[500px] w-full rounded-xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=1080&width=1080"
+                  src="/images/building.png?height=1080&width=1080"
                   alt="Shannon Hydraulics workshop"
                   fill
                   className="object-cover"
@@ -232,6 +232,7 @@ export default function Home() {
             <ProductCard image="/images/seals.jpg" title="Seal Kits & Repair Tools" />
             <ProductCard image="/images/image.png" title="Heavy-Duty Chains" />
             <ProductCard image="/images/lathe.jpg" title="Precision Machined Components" />
+            <ProductCard image="/images/paint.png" title="Industrial Paint Supplies" />
             
           </div>
         </div>

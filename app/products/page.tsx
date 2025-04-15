@@ -54,6 +54,11 @@ export default function ProductsPage() {
       title: "Precision Machined Components",
       image: "/images/lathe.jpg",
     },  
+    {
+      id: 13,
+      title: "Industrial Paint Supplies",
+      image: "/images/paint.png",
+    }, 
   ]
 
   return (
