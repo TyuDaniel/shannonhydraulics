@@ -59,7 +59,7 @@ export default function Header() {
               className="flex items-center gap-2 text-white hover:text-yellow-400 transition-colors font-medium"
             >
               <Mail className="w-4 h-4" />
-              <span>Email Us</span>
+              <span>shannonhydraulics@gmail.com</span>
             </a>
           </div>
 

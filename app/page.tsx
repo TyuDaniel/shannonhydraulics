@@ -110,7 +110,7 @@ export default function Home() {
                   className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
                 >
                   <Mail className="w-4 h-4 mr-2" />
-                  Email Us
+                  shannonhydraulics@gmail.com
                 </a>
               </div>
             </div>
