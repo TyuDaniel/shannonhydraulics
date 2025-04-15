@@ -228,7 +228,7 @@ export default function Home() {
             <ProductCard image="/images/trak.jpg" title="Bucket Teeth & Shackles " />
             <ProductCard image="/images/pumps.jpg" title="Hydraulic Pumps" />
             <ProductCard image="/images/filters.jpg" title="Oil Filters & Filtration Units" />
-            <ProductCard image="/images/oils.jpg" title="Hydraulic Oil" />
+            <ProductCard image="/images/oila.jpg" title="Hydraulic Oil" />
             <ProductCard image="/images/seals.jpg" title="Seal Kits & Repair Tools" />
             <ProductCard image="/images/image.png" title="Heavy-Duty Chains" />
             <ProductCard image="/images/lathe.jpg" title="Precision Machined Components" />
