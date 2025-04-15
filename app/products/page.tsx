@@ -68,7 +68,7 @@ export default function ProductsPage() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/90 z-10"></div>
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/images/shannonhydraulics.png?height=1080&width=1920"
             alt="Hydraulic machinery"
             fill
             className="object-cover opacity-50"

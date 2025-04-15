@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Menu, X, Phone, Mail } from "lucide-react"
 
 export default function Header() {
@@ -11,11 +10,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setScrolled(true)
-      } else {
-        setScrolled(false)
-      }
+      setScrolled(window.scrollY > 10)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -33,11 +28,9 @@ export default function Header() {
       }`}
     >
       <div className="container px-4 mx-auto">
-        <div className="flex items-center justify-between h-20">
-          
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+        <div className="relative flex items-center justify-center h-20">
+          {/* Centered Navigation */}
+          <nav className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <Link href="/" className="text-white hover:text-yellow-400 transition-colors font-medium">
               Home
             </Link>
@@ -53,7 +46,7 @@ export default function Header() {
           </nav>
 
           {/* Contact Info Buttons */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-6 absolute right-0">
             <a
               href="tel:061294492"
               className="flex items-center gap-2 text-yellow-400 hover:text-yellow-500 transition-colors font-medium"
@@ -72,7 +65,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-white hover:text-yellow-400 transition-colors"
+            className="md:hidden p-2 text-white hover:text-yellow-400 transition-colors absolute right-0"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >

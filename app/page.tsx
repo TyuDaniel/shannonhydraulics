@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container relative z-10 px-4 mx-auto text-center">
           <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl">
             <span className="block">Ireland's trusted provider</span>
-            <span className="block mt-2 text-yellow-400">of hydraulic solutions</span>
+            <span className="block mt-2 text-yellow-400">for hydraulics</span>
           </h1>
           <p className="max-w-xl mx-auto mt-8 text-xl text-gray-300">
             Custom hydraulic systems, repairs, and components for industrial and agricultural clients across Ireland.
@@ -139,12 +139,12 @@ export default function Home() {
             <ServiceCard
               icon={<Wrench className="w-10 h-10" />}
               title="Hydraulic Hose Supply & Repair"
-              description="On-site and workshop repairs for hydraulic hoses with quick turnaround times to minimize downtime."
+              description="We manufacture hydraulic hoses with precision, adhering to the highest quality standards"
             />
             <ServiceCard
               icon={<Oil className="w-10 h-10" />}
-              title="Hydraulic Oil Sales"
-              description="Premium hydraulic oils and fluids for all applications, ensuring optimal system performance and longevity."
+              title="Hydraulic Oil"
+              description="Hydraulic oil refills available, simply bring your own container."
             />
             <ServiceCard
               icon={<Settings className="w-10 h-10" />}
@@ -153,13 +153,13 @@ export default function Home() {
             />
             <ServiceCard
               icon={<Settings className="w-10 h-10" />}
-              title="System Installation"
-              description="Complete hydraulic system design, installation, and commissioning for new equipment and machinery."
+              title="Heavy-Duty Chains"
+              description="Supplying premium heavy-duty chains and quality testing."
             />
             <ServiceCard
               icon={<Wrench className="w-10 h-10" />}
               title="Repairs & Maintenance"
-              description="Professional repair services and maintenance programs to keep your hydraulic systems running efficiently."
+              description="Professional repair services and maintenance to keep your hydraulic systems running efficiently."
             />
             <ServiceCard
               icon={<Settings className="w-10 h-10" />}
