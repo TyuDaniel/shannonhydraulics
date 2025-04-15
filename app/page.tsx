@@ -72,9 +72,10 @@ export default function Home() {
                 agricultural, and commercial clients throughout Ireland.
               </p>
               <p className="text-gray-300 mb-8 text-lg">
-                What sets us apart is our in-house manufacturing capabilities. With our precision lathe machine, we can
-                manufacture and repair custom hydraulic rams to exact specifications, ensuring perfect fit and function
-                for your equipment.
+              At Shannon Hydraulics, we specialize in supplying and servicing a wide range of hydraulic components and equipment. 
+              From hydraulic hose fittings, seals, and power washer hoses to copper brake pipes, lifting gear, heavy-duty filters, and chain solutions, 
+              we’re your one-stop shop for hydraulic support. We also carry spare parts for machinery like JCB and Hitachi,
+               refill hydraulic oil into your drums, and handle repairs for CAT hoses and hydraulic rams with precision and care.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start gap-4">
@@ -224,11 +225,14 @@ export default function Home() {
             <ProductCard image="/images/hydraulic-hose.jpg" title="Hydraulic Hoses" />
             <ProductCard image="/images/fittings.jpg" title="Hose Fittings & Adapters" />
             <ProductCard image="/images/cylinders.jpg" title="Hydraulic Cylinders" />
-            <ProductCard image="/images/couplings.jpg" title="Quick Release Couplings" />
+            <ProductCard image="/images/trak.jpg" title="Bucket Teeth & Shackles " />
             <ProductCard image="/images/pumps.jpg" title="Hydraulic Pumps" />
             <ProductCard image="/images/filters.jpg" title="Oil Filters & Filtration Units" />
-            <ProductCard image="/images/oil.jpg" title="Hydraulic Oil" />
-            <ProductCard image="/images/seal-kits.jpg" title="Seal Kits & Repair Tools" />
+            <ProductCard image="/images/oils.jpg" title="Hydraulic Oil" />
+            <ProductCard image="/images/seals.jpg" title="Seal Kits & Repair Tools" />
+            <ProductCard image="/images/image.png" title="Heavy-Duty Chains" />
+            <ProductCard image="/images/lathe.jpg" title="Precision Machined Components" />
+            
           </div>
         </div>
       </section>

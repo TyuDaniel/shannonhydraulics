@@ -21,8 +21,8 @@ export default function ProductsPage() {
     },
     {
       id: 4,
-      title: "Quick Release Couplings",
-      image: "/images/couplings.jpg",
+      title: "Bucket Teeth & Shackles",
+      image: "/images/trak.jpg",
     },
     {
       id: 5,
@@ -37,13 +37,23 @@ export default function ProductsPage() {
     {
       id: 9,
       title: "Hydraulic Oil",
-      image: "/images/oil.jpg",
+      image: "/images/oila.jpg",
     },
     {
       id: 10,
       title: "Seal Kits & Repair Tools",
-      image: "/images/seal-kits.jpg",
+      image: "/images/seals.jpg",
     },
+    {
+      id: 11,
+      title: "Heavy-Duty Chains",
+      image: "/images/image.png",
+    },
+    {
+      id: 12,
+      title: "Precision Machined Components",
+      image: "/images/lathe.jpg",
+    },  
   ]
 
   return (
