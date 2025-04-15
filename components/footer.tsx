@@ -38,11 +38,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-            <Link href="/" className="inline-block mb-6">
-              <div className="relative h-12 w-48">
-                <Image src="/images/logo.png" alt="Shannon Hydraulics Logo" fill className="object-contain" />
-              </div>
-            </Link>
+        
             <p className="text-gray-400 mb-6">
               Providing quality hydraulic solutions for industrial and agricultural clients across Ireland.
             </p>

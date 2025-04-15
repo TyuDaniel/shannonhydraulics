@@ -34,12 +34,7 @@ export default function Header() {
     >
       <div className="container px-4 mx-auto">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <div className="relative h-12 w-48">
-              <Image src="/images/logos.png" alt="Shannon Hydraulics Logo" fill className="object-contain" />
-            </div>
-          </Link>
+          
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
