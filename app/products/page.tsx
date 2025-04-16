@@ -26,39 +26,41 @@ export default function ProductsPage() {
     },
     {
       id: 5,
-      title: "Hydraulic Pumps",
-      image: "/images/pumps.jpg",
+      title: "Power Washer Lance",
+      image: "/images/lance.png",
     },
     {
-      id: 7,
+      id: 6,
       title: "Oil Filters & Filtration Units",
       image: "/images/filters.jpg",
     },
     {
-      id: 9,
+      id: 7,
       title: "Hydraulic Oil",
       image: "/images/oila.jpg",
     },
     {
-      id: 10,
-      title: "Seal Kits & Repair Tools",
+      id: 8,
+      title: "Seal Kits",
       image: "/images/seals.jpg",
     },
     {
-      id: 11,
+      id: 8,
       title: "Heavy-Duty Chains",
       image: "/images/image.png",
     },
     {
-      id: 12,
-      title: "Precision Machined Components",
-      image: "/images/lathe.jpg",
+      id: 10,
+      title: "Lifting Slings & Shackles",
+      image: "/images/slings.png",
     },  
     {
-      id: 13,
+      id: 11,
       title: "Industrial Paint Supplies",
       image: "/images/paint.png",
     }, 
+   
+     
   ]
 
   return (

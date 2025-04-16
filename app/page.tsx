@@ -163,8 +163,8 @@ export default function Home() {
             />
             <ServiceCard
               icon={<Settings className="w-10 h-10" />}
-              title="Testing & Diagnostics"
-              description="Comprehensive system testing and diagnostics to identify and resolve hydraulic issues."
+              title="Power Washer Lance & Hose"
+              description="We sell Power Washer Lances and provide expert repair and replacement services for power washer hoses."
             />
           </div>
         </div>
@@ -226,13 +226,13 @@ export default function Home() {
             <ProductCard image="/images/fittings.jpg" title="Hose Fittings & Adapters" />
             <ProductCard image="/images/cylinders.jpg" title="Hydraulic Cylinders" />
             <ProductCard image="/images/trak.jpg" title="Bucket Teeth & Shackles " />
-            <ProductCard image="/images/pumps.jpg" title="Hydraulic Pumps" />
             <ProductCard image="/images/filters.jpg" title="Oil Filters & Filtration Units" />
             <ProductCard image="/images/oila.jpg" title="Hydraulic Oil" />
             <ProductCard image="/images/seals.jpg" title="Seal Kits & Repair Tools" />
             <ProductCard image="/images/image.png" title="Heavy-Duty Chains" />
-            <ProductCard image="/images/lathe.jpg" title="Precision Machined Components" />
+            <ProductCard image="/images/slings.png" title="Lifting Slings & Shackles " />
             <ProductCard image="/images/paint.png" title="Industrial Paint Supplies" />
+            <ProductCard image="/images/lance.png" title="Power Washer Lancer" />
             
           </div>
         </div>
