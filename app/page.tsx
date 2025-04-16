@@ -130,7 +130,7 @@ export default function Home() {
             </h2>
             <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
             <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-lg">
-              From repairs to custom hydraulic system design, our experienced team provides comprehensive solutions for
+              From repairs to testing, our experienced team provides solutions for
               all your hydraulic needs.
             </p>
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
             <ServiceCard
               icon={<Settings className="w-10 h-10" />}
               title="Testing & Diagnostics"
-              description="Comprehensive system testing and diagnostics to identify and resolve hydraulic system issues."
+              description="Comprehensive system testing and diagnostics to identify and resolve hydraulic issues."
             />
           </div>
         </div>
