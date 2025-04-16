@@ -232,7 +232,7 @@ export default function Home() {
             <ProductCard image="/images/image.png" title="Heavy-Duty Chains" />
             <ProductCard image="/images/slings.png" title="Lifting Slings & Shackles " />
             <ProductCard image="/images/paint.png" title="Industrial Paint Supplies" />
-            <ProductCard image="/images/lance.png" title="Power Washer Lancer" />
+            <ProductCard image="/images/lance.png" title="Power Washer Lance" />
             
           </div>
         </div>
