@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shannon Hydraulics | Hydraulic System Services & Repairs",
+  title: "Shannon Hydraulics LTD",
   description:
     "Shannon Hydraulics provides custom hydraulic system services, repairs, and sales for industrial and agricultural clients across Ireland.",
 };
