@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from '@vercel/analytics/react'; 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,6 @@ export const metadata: Metadata = {
       "Shannon Hydraulics provides custom hydraulic system services, repairs, and sales for industrial and agricultural clients across Ireland.",
     url: "https://shannonhydraulics.ie",
     siteName: "Shannon Hydraulics LTD",
-  
     locale: "en_IE",
     type: "website",
   },
@@ -43,6 +43,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
+          <Analytics /> {/* Added here to capture all pages */}
         </ThemeProvider>
       </body>
     </html>
