@@ -2,7 +2,7 @@ import Image from "next/image"
 import { ChevronRight, Wrench, FuelIcon as Oil, Settings, Phone, Mail } from "lucide-react"
 import ServiceCard from "@/components/service-card"
 import ProductCard from "@/components/product-card"
-
+import { Facebook } from "lucide-react";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
@@ -83,8 +83,8 @@ export default function Home() {
                     <Settings className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Custom Solutions</h3>
-                    <p className="text-gray-400">Tailored hydraulic systems for your specific needs</p>
+                    <h3 className="text-lg font-semibold text-white mb-2">Quality Products</h3>
+                    <p className="text-gray-400">We supply premium-quality products</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -95,24 +95,36 @@ export default function Home() {
                     <h3 className="text-lg font-semibold text-white mb-2">Quality Service</h3>
                     <p className="text-gray-400">Expert technicians with years of experience</p>
                   </div>
+              
                 </div>
+                
               </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="tel:061294492"
-                  className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
-                >
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call (061) 294 492
-                </a>
-                <a
-                  href="mailto:shannonhydraulics@gmail.com"
-                  className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
-                >
-                  <Mail className="w-4 h-4 mr-2" />
-                  shannonhydraulics@gmail.com
-                </a>
-              </div>
+              <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
+  <a
+    href="tel:061294492"
+    className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
+  >
+    <Phone className="w-4 h-4 mr-2" />
+    Call (061) 294 492
+  </a>
+  <a
+    href="mailto:shannonhydraulics@gmail.com"
+    className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
+  >
+    <Mail className="w-4 h-4 mr-2" />
+    shannonhydraulics@gmail.com
+  </a>
+  <a
+    href="https://www.facebook.com/ShannonHydraulicsPlantSale/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-yellow-400 hover:text-yellow-500 font-medium transition-colors"
+  >
+    <Facebook className="w-4 h-4 mr-2" />
+    Follow us on Facebook
+  </a>
+</div>
+
             </div>
           </div>
         </div>
@@ -130,8 +142,7 @@ export default function Home() {
             </h2>
             <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
             <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-lg">
-              From repairs to testing, our experienced team provides solutions for
-              all your hydraulic needs.
+            From repairs to maintenance, our experienced team ensures your hydraulic equipment operates smoothly and reliably.
             </p>
           </div>
 

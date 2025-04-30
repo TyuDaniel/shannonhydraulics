@@ -12,11 +12,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Shannon Hydraulics LTD",
   description:
-    "Shannon Hydraulics provides custom hydraulic system services, repairs, and sales for industrial and agricultural clients across Ireland.",
+    "Shannon Hydraulics provides custom hydraulic services, repairs, and sales for industrial and agricultural clients across Ireland.",
   openGraph: {
     title: "Shannon Hydraulics LTD",
     description:
-      "Shannon Hydraulics provides custom hydraulic system services, repairs, and sales for industrial and agricultural clients across Ireland.",
+      "Shannon Hydraulics provides custom hydraulic services, repairs, and sales for industrial and agricultural clients across Ireland.",
     url: "https://shannonhydraulics.ie",
     siteName: "Shannon Hydraulics LTD",
     locale: "en_IE",

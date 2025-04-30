@@ -5,7 +5,7 @@ export default function Head() {
         <title>Shannon Hydraulics LTD</title>
         <meta
           name="description"
-          content="Shannon Hydraulics provides custom hydraulic system services, repairs, and sales for industrial and agricultural clients across Ireland."
+          content="Shannon Hydraulics provides custom hydraulic services, repairs, and sales for industrial and agricultural clients across Ireland."
         />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </>

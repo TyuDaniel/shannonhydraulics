@@ -40,13 +40,13 @@ export default function Footer() {
           <div>
         
             <p className="text-gray-400 mb-6">
-              Providing quality hydraulic solutions for industrial and agricultural clients across Ireland.
+              Providing quality hydraulic repairs and maintenance for industrial and agricultural clients across Ireland.
             </p>
             <div className="flex space-x-4">
               <Link
                 href="https://www.facebook.com/ShannonHydraulicsPlantSale/"
                 target="_blank"
-                className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-gray-400 hover:bg-yellow-400 hover:text-black transition-colors"
+                className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-blue-400 hover:bg-yellow-400 hover:text-black transition-colors"
               >
                 <Facebook className="w-5 h-5" />
                 <span className="sr-only">Facebook</span>
@@ -131,7 +131,7 @@ export default function Footer() {
                   className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
-                  System Installation
+                  Heavy-Duty Chains
                 </Link>
               </li>
               <li>
@@ -141,6 +141,15 @@ export default function Footer() {
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
                   Repairs & Maintenance
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#services"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
+                >
+                  <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
+                  Power Washer Lance & Hose
                 </Link>
               </li>
             </ul>
@@ -190,12 +199,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Shannon Hydraulics. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <Link href="/privacy-policy" className="text-gray-400 hover:text-yellow-400 transition-colors text-sm">
-              Privacy Policy
-            </Link>
-            <Link href="/terms-of-service" className="text-gray-400 hover:text-yellow-400 transition-colors text-sm">
-              Terms of Service
-            </Link>
+            
           </div>
         </div>
       </div>
