@@ -149,7 +149,7 @@ export default function ProductsPage() {
               </h2>
               <div className="w-20 h-1 bg-yellow-400 mb-8"></div>
               <p className="text-gray-300 mb-8 text-lg">
-                Find us at Unit 1, Crossagalla Industrial Estate, Crossagalla, Limerick, V94 HH3V. Our team is ready to
+                Find us at Unit 1, Crossagalla Industrial Estate, Crossagalla, Limerick, V94 WP9F. Our team is ready to
                 assist you with all your hydraulic needs.
               </p>
               <a
