@@ -13,7 +13,7 @@ export default function Footer() {
 
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-2">Need assistance with hydraulic solutions?</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Need assistance with Hydraulic solutions?</h3>
               <p className="text-gray-300">Our team is ready to help with all your hydraulic needs</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
         
             <p className="text-gray-400 mb-6">
-              Providing quality hydraulic repairs and maintenance for industrial and agricultural clients across Ireland.
+              Providing quality Hydraulic repairs and maintenance for industrial and agricultural clients across Ireland.
             </p>
             <div className="flex space-x-4">
               <Link
