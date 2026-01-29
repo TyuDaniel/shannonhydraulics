@@ -24,7 +24,7 @@ export default function Home() {
             <span className="block mt-2 text-yellow-400">for hydraulics</span>
           </h1>
           <p className="max-w-xl mx-auto mt-8 text-xl text-gray-300">
-            Custom hydraulic repairs and components for industrial and agricultural clients across Ireland.
+            Custom Hydraulic repairs and components for industrial and agricultural clients across Ireland.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 mt-12 sm:flex-row">
             <a
