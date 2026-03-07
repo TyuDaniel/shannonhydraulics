@@ -23,9 +23,8 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled ? "bg-black/95 backdrop-blur-sm shadow-lg" : "bg-black"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${scrolled ? "bg-black/95 backdrop-blur-sm shadow-lg" : "bg-black"
+        }`}
     >
       <div className="container px-4 mx-auto">
         <div className="relative flex items-center justify-center h-20">

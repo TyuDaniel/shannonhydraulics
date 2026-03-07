@@ -1,6 +1,22 @@
 import Image from "next/image"
+import type { Metadata } from "next"
 import { ChevronRight, Phone, Mail } from "lucide-react"
 import ProductCard from "@/components/product-card"
+
+export const metadata: Metadata = {
+  title: "Hydraulic Products & Supplies | Shannon Hydraulics LTD — Limerick, Ireland",
+  description:
+    "Shop hydraulic hoses, cylinders, pumps, valves, motors, power packs, oil, seals, filters, chains, couplings, lifting gear, copper brake pipes, and more at Shannon Hydraulics LTD in Limerick, Ireland.",
+  openGraph: {
+    title: "Hydraulic Products & Supplies | Shannon Hydraulics LTD",
+    description:
+      "Comprehensive range of hydraulic products: hoses, cylinders, pumps, valves, motors, power packs, oil, seals, filters, chains, couplings, lifting gear, and more.",
+    url: "https://shannonhydraulics.ie/products",
+  },
+  alternates: {
+    canonical: "https://shannonhydraulics.ie/products",
+  },
+}
 
 export default function ProductsPage() {
   const products = [
@@ -16,7 +32,7 @@ export default function ProductsPage() {
     },
     {
       id: 3,
-      title: "Hydraulic Cylinders",
+      title: "Hydraulic Cylinders & Rams",
       image: "/images/cylinders.jpg",
     },
     {
@@ -26,7 +42,7 @@ export default function ProductsPage() {
     },
     {
       id: 5,
-      title: "Power Washer Lance",
+      title: "Power Washer Lance & Hose",
       image: "/images/lance.png",
     },
     {
@@ -41,11 +57,11 @@ export default function ProductsPage() {
     },
     {
       id: 8,
-      title: "Seal Kits",
+      title: "Seal Kits & Repair Tools",
       image: "/images/seals.jpg",
     },
     {
-      id: 8,
+      id: 9,
       title: "Heavy-Duty Chains",
       image: "/images/image.png",
     },
@@ -53,14 +69,52 @@ export default function ProductsPage() {
       id: 10,
       title: "Lifting Slings & Shackles",
       image: "/images/slings.png",
-    },  
+    },
     {
       id: 11,
       title: "Industrial Paint Supplies",
       image: "/images/paint.png",
-    }, 
-   
-     
+    },
+    {
+      id: 12,
+      title: "Hydraulic Pumps",
+      image: "/images/hydraulic_pump.jpg",
+    },
+    {
+      id: 13,
+      title: "Hydraulic Valves",
+      image: "/images/valve.jpg",
+    },
+    {
+      id: 14,
+      title: "Hydraulic Motors",
+      image: "/images/motor.webp",
+    },
+    {
+      id: 15,
+      title: "Hydraulic Power Packs",
+      image: "/images/powerpack.png",
+    },
+    {
+      id: 16,
+      title: "Grease & Lubricants",
+      image: "/images/oils.jpg",
+    },
+    {
+      id: 17,
+      title: "Log Splitter Cylinders",
+      image: "/images/log_splitter.png",
+    },
+    {
+      id: 18,
+      title: "Quick-Release Couplings",
+      image: "/images/quickreleasecouplings.jpg",
+    },
+    {
+      id: 19,
+      title: "Copper Brake Pipes",
+      image: "/images/couplings.jpg",
+    },
   ]
 
   return (
@@ -71,7 +125,7 @@ export default function ProductsPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/90 z-10"></div>
           <Image
             src="/images/shannonhydraulics.png?height=1080&width=1920"
-            alt="Hydraulic machinery"
+            alt="Shannon Hydraulics — hydraulic products and supplies in Limerick, Ireland"
             fill
             className="object-cover opacity-50"
             priority
@@ -86,7 +140,7 @@ export default function ProductsPage() {
           </h1>
           <div className="w-24 h-1 bg-yellow-400 mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-xl text-gray-300">
-            High-quality hydraulic components and supplies for all industrial and agricultural applications.
+            High-quality hydraulic components and supplies for industrial, agricultural, and forestry applications — hoses, cylinders, pumps, valves, motors, oil, and more.
           </p>
         </div>
       </section>
@@ -113,7 +167,7 @@ export default function ProductsPage() {
               <h2 className="text-3xl font-bold text-white mb-6">Need Help Finding the Right Product?</h2>
               <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
                 Our team of experts is ready to assist you in finding the perfect hydraulic solutions for your specific
-                needs.
+                needs. We stock products for industrial, agricultural, and forestry applications.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a
@@ -149,7 +203,7 @@ export default function ProductsPage() {
               </h2>
               <div className="w-20 h-1 bg-yellow-400 mb-8"></div>
               <p className="text-gray-300 mb-8 text-lg">
-                Find us at Unit 1, Crossagalla Industrial Estate, Crossagalla, Limerick, V94 WP9F. Our team is ready to
+                Find us at Unit 1, Crossagalla Industrial Estate, Limerick, V94 WP9F. Our team is ready to
                 assist you with all your hydraulic needs.
               </p>
               <a
@@ -171,7 +225,7 @@ export default function ProductsPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Shannon Hydraulics Location"
+                title="Shannon Hydraulics Location — Crossagalla Industrial Estate, Limerick"
               ></iframe>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import { Facebook, MapPin, Phone, Mail, Clock, ChevronRight } from "lucide-react"
 
 export default function Footer() {
@@ -38,9 +37,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-        
             <p className="text-gray-400 mb-6">
-              Providing quality Hydraulic repairs and maintenance for industrial and agricultural clients across Ireland.
+              Shannon Hydraulics LTD provides quality hydraulic repairs, maintenance, and supplies for clients across Ireland.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -107,13 +105,14 @@ export default function Footer() {
                   Hydraulic Hose Repair
                 </Link>
               </li>
+
               <li>
                 <Link
                   href="/#services"
                   className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
-                  Hydraulic Cylinders
+                  Hydraulic Cylinders &amp; Rams
                 </Link>
               </li>
               <li>
@@ -122,7 +121,16 @@ export default function Footer() {
                   className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
-                  Hydraulic Oil Sales
+                  Pumps, Valves &amp; Motors
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#services"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
+                >
+                  <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
+                  Hydraulic Oil &amp; Lubricants
                 </Link>
               </li>
               <li>
@@ -140,7 +148,7 @@ export default function Footer() {
                   className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
-                  Repairs & Maintenance
+                  Power Washer Lance &amp; Hose
                 </Link>
               </li>
               <li>
@@ -149,7 +157,16 @@ export default function Footer() {
                   className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
                 >
                   <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
-                  Power Washer Lance & Hose
+                  Lifting Gear &amp; Slings
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#services"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors flex items-center"
+                >
+                  <ChevronRight className="w-4 h-4 mr-2 text-yellow-400" />
+                  JCB, Hitachi &amp; CAT Parts
                 </Link>
               </li>
             </ul>
@@ -164,7 +181,7 @@ export default function Footer() {
                 <span className="text-gray-400">
                   Unit 1, Crossagalla Industrial Estate,
                   <br />
-                  Crossagalla, Limerick, V94 WP9F  
+                  Crossagalla, Limerick, V94 WP9F
                 </span>
               </li>
               <li className="flex items-center">
@@ -187,7 +204,7 @@ export default function Footer() {
                 <span className="text-gray-400">
                   Monday - Friday: 9:00 AM - 5:00 PM
                   <br />
-                  Saturday & Sunday: Closed
+                  Saturday &amp; Sunday: Closed
                 </span>
               </li>
             </ul>
@@ -196,10 +213,10 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Shannon Hydraulics. All rights reserved.
+            &copy; {new Date().getFullYear()} Shannon Hydraulics LTD. All rights reserved. | Hydraulic hose repair, cylinder repair, pumps, valves, motors &amp; supplies — Limerick, Ireland.
           </p>
           <div className="flex space-x-6">
-            
+
           </div>
         </div>
       </div>
