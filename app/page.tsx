@@ -279,7 +279,7 @@ export default function Home() {
             <ProductCard image="/images/oils.jpg" title="Grease & Lubricants" />
             <ProductCard image="/images/log_splitter.png" title="Log Splitter Cylinders" />
             <ProductCard image="/images/quickreleasecouplings.jpg" title="Quick-Release Couplings" />
-            <ProductCard image="/images/couplings.jpg" title="Copper Brake Pipes" />
+            <ProductCard image="/images/copperbreakpipe.jpeg" title="Copper Brake Pipes" />
           </div>
         </div>
       </section>

@@ -113,7 +113,7 @@ export default function ProductsPage() {
     {
       id: 19,
       title: "Copper Brake Pipes",
-      image: "/images/couplings.jpg",
+      image: "/images/copperbreakpipe.jpeg",
     },
   ]
 
